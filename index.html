@@ -11,8 +11,22 @@
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
-
-
+  <form action="file://wsl.localhost/Ubuntu/home/katherine/Development/code/phase-1/phase-1-html-forms-lab/index.html" method="GET">
+    <label for="fullname">Fullname</label><br>
+    <input id="fullname" type="text" name="fullname" placeholder="Enter Name" required />
+    <label for="email">Email</label><br>
+    <input id="email" type="email" name="email" placeholder="Enter Email" required />
+    <label for="phone">Telephone Number</label><br>
+    <input id="phone" type="tel" name="phone" placeholder="Enter Telephone (optional)" />
+    
+  <!-- </form> -->
+    <h3>
+      <label for="message">Message</label><br>
+      <textarea id="message" type="text" name="message" placeholder="Enter Message"></textarea>
+    </h3>
+    <input id="checkbox"  type="checkbox" name="assignment" value="completed" /> completed <br/>
+    <input type="submit" value="You have completed this assignment" /> <br/>
+  </form>
       <!-- Add a label for 'fullname'-->
 
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
